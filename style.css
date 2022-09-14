@@ -1,0 +1,105 @@
+
+.caixa-aluno {
+    width: 150px;
+    height: 150px;
+    background-color: #d30707;
+    line-height: 150px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.caixa-aluno-1 {
+
+  /*   position: relative;
+    margin-left: auto; */
+
+    position: absolute;
+
+    right: 0;
+    top: 0;
+}
+.caixa-aluno-2 {
+
+     position: absolute;
+
+    bottom: 150px;
+    right: 50px;
+}
+.caixa-aluno-3 {
+    position: absolute;
+
+    margin:auto; 
+
+    top: 0;
+    left: 0;
+    right: 0; 
+
+   
+    
+}
+.caixa-aluno-4 {
+    position: absolute;
+
+    left: 0;
+    bottom: 0;
+}
+.caixa-aluno-5 {
+    position: absolute;
+
+    margin: auto;
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-color: #ede7f6;
+}
+.caixa-desafio-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.caixa-desafio-2 {
+    position: absolute;
+    bottom: 150px;
+    right: 50px;
+}
+.caixa-desafio-3 {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.caixa-desafio-4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.caixa-desafio-5 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.caixa-desafio {
+    width: 150px;
+    height: 150px;
+    background-color: #1565c0;
+    line-height: 150px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
